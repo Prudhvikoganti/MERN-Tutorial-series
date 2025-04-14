@@ -1,0 +1,47 @@
+.main {
+    min-height: 92vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-image: url('../assets/background1.jpg');
+    background-position: center;
+    background-size: cover;
+}
+
+.title {
+    font-size: 95px;
+}
+
+.subtitle {
+    font-size: 25px;
+    padding-top: 20px;
+}
+
+.intro-text {
+    width: 100%;
+    text-align: center;
+    padding-left: 200px;
+
+}
+
+.buttoncontainer {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+    justify-content: space-evenly;
+}
+
+.landingbutton {
+    width: 200px;
+    height: 55px;
+}
+
+@media only screen and (min-width: 1000px) {
+    .buttoncontainer {
+        padding: 0 200px;
+    }
+
+    /* .intro-text {
+        padding-left: 100px;
+    } */
+}
